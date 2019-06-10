@@ -1,0 +1,6 @@
+framework module Pods_ImageToPdfConverter {
+  umbrella header "Pods-ImageToPdfConverter-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003FFED7DA96C43DEF130DE04821538B /* PDFGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E183E49638340B20F91E47EED7CABD /* PDFGenerator-dummy.m */; };
+		0B5EFD4398A7CD49C069496645E68E6E /* ImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 665A37163446F776A4210C9692873018 /* ImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12BB8E3655701ADD477E90ADBF45C578 /* PDFGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E03C9A5637BA0B34E795215456433F85 /* PDFGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13348103312E1FDB4A9E0C2400E02625 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B836DE1537D58FE3EAD15CAEBFE8BD6 /* ImagePickerController.swift */; };
+		16C3EAEFB8CFEA8441A64A28D14EE6F7 /* OFF@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 78B25888FA99B08C6B5982BDC85E2C53 /* OFF@3x.png */; };
+		1F4856A9C17403CE4D018026EF735679 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9FC3235D5F51AFDC6EE5C563EF39B /* StackView.swift */; };
+		29303FE953FD50896E2ECC0C69932B8E /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B93E9FE4A192F76E0024BE818A2CF9E /* CameraView.swift */; };
+		2FF496CB723CBF1EFB9F31623A64161C /* DPIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EE7213E0B725BBF6A84B6D29A14DB7 /* DPIType.swift */; };
+		33D61DD8A236C44BB320BF38B3974AE6 /* ButtonPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873D6F527535816FB0527C874A7E937D /* ButtonPicker.swift */; };
+		34B14C0717617986134EC7A4A04C85F5 /* Pods-ImageToPdfConverter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C483D92ECC2169D209DD676E3BD792 /* Pods-ImageToPdfConverter-dummy.m */; };
+		37F59342BE29FEE9CBC6E2777049F7E3 /* cameraIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90FE87ECA60A584FF8DD37A5920C3E46 /* cameraIcon@3x.png */; };
+		3889D90F4717A5FD721EFCDEFE5F16D8 /* ImageGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A451E9951CBF50A5923FE64BD3376E4 /* ImageGalleryView.swift */; };
+		475851145F3602F181CC253ADE6041C1 /* BottomContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 375A63FD525B10BA952993CC9F3A49B8 /* BottomContainerView.swift */; };
+		4C9100123EC21BD45BDE7EA935AE2847 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37589962372A7E35EFA0A0719C68F984 /* AVFoundation.framework */; };
+		53A909A3FB00B32E39180B5E63885265 /* ImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C1CCCA7F5E5DF499FA140B31B0520BE /* ImagePicker.bundle */; };
+		544BCA9C63E7BB88DE240F9B2E478BCB /* PDFPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5971E7D55B3DF499EC13683CAE3DDB0 /* PDFPassword.swift */; };
+		54F28BF9BE8BA3C180F111139D01610E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75377E801CE24634774576A3CD6F2525 /* Helper.swift */; };
+		551FD2AC4D90C241DB733525DB7E1785 /* ImageGalleryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0190E84439FCE041D8D54474F124073B /* ImageGalleryViewCell.swift */; };
+		65ED7F3314BEB7D5D2E3B275102901DD /* AUTO@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32CCCD6299503DC9DA1ADF465AAD10E0 /* AUTO@3x.png */; };
+		6658D526FDE27C165932913AA550AE52 /* PDFGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB64034BD3210831E688DED85960D0F /* PDFGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7284D54ADA2FF0B04DC1A1D53FC59432 /* Pods-ImageToPdfConverter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46B0A293BB5429A5E7A5F2177F7DE298 /* Pods-ImageToPdfConverter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7450565C2E11E9A5ADC24A352C10E0BA /* ImageGalleryViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABB13F29F056267286A4C72F9DBE472 /* ImageGalleryViewDataSource.swift */; };
+		7ABFA4EFE824876F166FEFA9866AD64B /* PDFPagedScrollViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB7119BDEBF3F93DFB82A19ACD8E221 /* PDFPagedScrollViewConfiguration.swift */; };
+		856C4FE17E6A13C60864DF6FBB6A455B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F990281C3B59ED5C2803A800B1BE90A5 /* Foundation.framework */; };
+		87EE674051DFFE693F9C0E5E3CA12F11 /* ON@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C43856CF5012643562858F4E8867946 /* ON@3x.png */; };
+		9E81154B3A75B33C93D0CF0B4DB0EF3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F990281C3B59ED5C2803A800B1BE90A5 /* Foundation.framework */; };
+		A60A930F397E1C1FBCB0F4999BBE6F09 /* VideoInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6928B1D8A235BF3EAAF9D8E9AB4FE656 /* VideoInfoView.swift */; };
+		A7FE1FDD99827D917F8BE5BE339E7923 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82173CC696AD4B7E2E314D3646DC02DD /* WebKit.framework */; };
+		A82EC868762F8A685B233B4470E0A9D3 /* PDFPageRenderable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1FB7CA13F31874881A226370928F014 /* PDFPageRenderable.swift */; };
+		ADB078286A6032BDFCFC1827BD1F077E /* PDFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A022B5DBE73836872CC48BE4A467AA /* PDFGenerator.swift */; };
+		BDD4108B2548018264BDFA84531BC3F7 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBEB20BD4A2BCC18AD18CE5013E2489 /* Configuration.swift */; };
+		C7FB5A2EF6BFDECB5D5C6CC6FB7F3223 /* ImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0808B533129C03C01D34767C33A7B19 /* ImagePicker-dummy.m */; };
+		C9484B916052BF12B27815A86985F9E1 /* AssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDCE73487DAE39FF0C896C3B0E1D0FAB /* AssetManager.swift */; };
+		C9CE1E6AC61CD28301EE714761042D15 /* FilePathConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F544638E0778CEB0671026C735D488 /* FilePathConvertible.swift */; };
+		D32A96A16C39C80566A37471D2F66314 /* video@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C419F99C08A1BCEDAC4D8D6A74F27B1C /* video@3x.png */; };
+		D60AEDA0EDAF331247CF92CAC7D6CF27 /* ImageGalleryLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40037F581F0FF0E84670F4F8E9716104 /* ImageGalleryLayout.swift */; };
+		D8FB9BA54A3369663FB17CC94C98BECE /* PDFGenerateError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F1C3A827754E9B591C0C9E93C068E2 /* PDFGenerateError.swift */; };
+		DA4FFA588D4396D425B61B8F6C57C740 /* CameraMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA9FA0BCB0304E83B191D2AD0CE1B15 /* CameraMan.swift */; };
+		DCC5C9CEBC158AA2676641C5CE979CED /* focusIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F6A6FAC9B4594EEC4F7836F1EED153E3 /* focusIcon@3x.png */; };
+		E47BD7856CA87BCFD9D0B3FF4DE02E41 /* selectedImageGallery@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68D2641F32E345BB56F5E7525C9AD492 /* selectedImageGallery@3x.png */; };
+		E81B321E8102E9F7C471B7FD46C59872 /* ImageStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83645A26B704C3E2FDD187F9DC70F2CD /* ImageStack.swift */; };
+		E8639FF6A423D6D1645DF1D02F64770F /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7518FA48F9FEBB5E9238E01A1D3A08 /* LocationManager.swift */; };
+		E89DA295976956D063FA39B92A546556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F990281C3B59ED5C2803A800B1BE90A5 /* Foundation.framework */; };
+		E9C7FF980E8BBC682DD527B2615ABB47 /* PDFPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D0559D32CFA629856EF1AA63EA93A /* PDFPage.swift */; };
+		E9DE322CB1888B1B3ED73985E0A30722 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C88F517728354008291F26E2CAA37FA /* TopView.swift */; };
+		FC91F8BE4B968ABB4A2169BB4E512EC6 /* ConstraintsSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2440DC00DC8E266E88BE9BA986A9EAA3 /* ConstraintsSetup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		629E9AFA4149E4895CEF96079623CEE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF6E62D8BE0F25781A37BB7EC37F6318;
+			remoteInfo = PDFGenerator;
+		};
+		827543A80C95097E9E3687A828903C9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01CB8D6098C21E12CE735619344DE81E;
+			remoteInfo = ImagePicker;
+		};
+		B999D9B08D687821BCC743F0FEE638AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 614D1818852890AC7D3CDF68D512C370;
+			remoteInfo = "ImagePicker-ImagePicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0190E84439FCE041D8D54474F124073B /* ImageGalleryViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGalleryViewCell.swift; path = Source/ImageGallery/ImageGalleryViewCell.swift; sourceTree = "<group>"; };
+		0B7518FA48F9FEBB5E9238E01A1D3A08 /* LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = Source/LocationManager.swift; sourceTree = "<group>"; };
+		0C88F517728354008291F26E2CAA37FA /* TopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TopView.swift; path = Source/TopView/TopView.swift; sourceTree = "<group>"; };
+		16A9BAA9C51111BE22B04E39EE00583A /* Pods_ImageToPdfConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageToPdfConverter.framework; path = "Pods-ImageToPdfConverter.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		178D0559D32CFA629856EF1AA63EA93A /* PDFPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPage.swift; path = PDFGenerator/PDFPage.swift; sourceTree = "<group>"; };
+		18E9FC3235D5F51AFDC6EE5C563EF39B /* StackView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StackView.swift; path = Source/BottomView/StackView.swift; sourceTree = "<group>"; };
+		1C43856CF5012643562858F4E8867946 /* ON@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ON@3x.png"; path = "Images/ON@3x.png"; sourceTree = "<group>"; };
+		1FA9FA0BCB0304E83B191D2AD0CE1B15 /* CameraMan.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraMan.swift; path = Source/CameraView/CameraMan.swift; sourceTree = "<group>"; };
+		2440DC00DC8E266E88BE9BA986A9EAA3 /* ConstraintsSetup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintsSetup.swift; path = Source/Extensions/ConstraintsSetup.swift; sourceTree = "<group>"; };
+		2B93E9FE4A192F76E0024BE818A2CF9E /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = Source/CameraView/CameraView.swift; sourceTree = "<group>"; };
+		32CCCD6299503DC9DA1ADF465AAD10E0 /* AUTO@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "AUTO@3x.png"; path = "Images/AUTO@3x.png"; sourceTree = "<group>"; };
+		37589962372A7E35EFA0A0719C68F984 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		375A63FD525B10BA952993CC9F3A49B8 /* BottomContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BottomContainerView.swift; path = Source/BottomView/BottomContainerView.swift; sourceTree = "<group>"; };
+		3BB7119BDEBF3F93DFB82A19ACD8E221 /* PDFPagedScrollViewConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPagedScrollViewConfiguration.swift; path = PDFGenerator/PDFPagedScrollViewConfiguration.swift; sourceTree = "<group>"; };
+		3C1CCCA7F5E5DF499FA140B31B0520BE /* ImagePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ImagePicker.bundle; path = "ImagePicker-ImagePicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40037F581F0FF0E84670F4F8E9716104 /* ImageGalleryLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGalleryLayout.swift; path = Source/ImageGallery/ImageGalleryLayout.swift; sourceTree = "<group>"; };
+		45E183E49638340B20F91E47EED7CABD /* PDFGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PDFGenerator-dummy.m"; sourceTree = "<group>"; };
+		46B0A293BB5429A5E7A5F2177F7DE298 /* Pods-ImageToPdfConverter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageToPdfConverter-umbrella.h"; sourceTree = "<group>"; };
+		4964245724A1B64A74E5FFF980A1D192 /* Pods-ImageToPdfConverter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageToPdfConverter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		49B0934FEC190F17B26D36522210D8E7 /* PDFGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDFGenerator-prefix.pch"; sourceTree = "<group>"; };
+		4FEF6F821C9A6C0FA9EDA9649870333A /* PDFGenerator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PDFGenerator-Info.plist"; sourceTree = "<group>"; };
+		50A022B5DBE73836872CC48BE4A467AA /* PDFGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFGenerator.swift; path = PDFGenerator/PDFGenerator.swift; sourceTree = "<group>"; };
+		58F1C3A827754E9B591C0C9E93C068E2 /* PDFGenerateError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFGenerateError.swift; path = PDFGenerator/PDFGenerateError.swift; sourceTree = "<group>"; };
+		5BDD335CBACB230E3DE5621F5E95F60F /* Pods-ImageToPdfConverter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageToPdfConverter-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D890D956999632346D999270629A75A /* ResourceBundle-ImagePicker-ImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ImagePicker-ImagePicker-Info.plist"; sourceTree = "<group>"; };
+		63D72F76A86D11241BDA90C7AD3A5693 /* ImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImagePicker.modulemap; sourceTree = "<group>"; };
+		665A37163446F776A4210C9692873018 /* ImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImagePicker-umbrella.h"; sourceTree = "<group>"; };
+		68D2641F32E345BB56F5E7525C9AD492 /* selectedImageGallery@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "selectedImageGallery@3x.png"; path = "Images/selectedImageGallery@3x.png"; sourceTree = "<group>"; };
+		6928B1D8A235BF3EAAF9D8E9AB4FE656 /* VideoInfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoInfoView.swift; path = Source/ImageGallery/VideoInfoView.swift; sourceTree = "<group>"; };
+		69C483D92ECC2169D209DD676E3BD792 /* Pods-ImageToPdfConverter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageToPdfConverter-dummy.m"; sourceTree = "<group>"; };
+		75377E801CE24634774576A3CD6F2525 /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Source/Helper.swift; sourceTree = "<group>"; };
+		78B25888FA99B08C6B5982BDC85E2C53 /* OFF@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "OFF@3x.png"; path = "Images/OFF@3x.png"; sourceTree = "<group>"; };
+		7AB64034BD3210831E688DED85960D0F /* PDFGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PDFGenerator.h; path = PDFGenerator/PDFGenerator.h; sourceTree = "<group>"; };
+		7F57375DA3427D8A1243E9252A59C739 /* ImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImagePicker.framework; path = ImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82173CC696AD4B7E2E314D3646DC02DD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		82581BAD6FFFCECBBFAD15DA2F8E1FE9 /* PDFGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PDFGenerator.framework; path = PDFGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83645A26B704C3E2FDD187F9DC70F2CD /* ImageStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageStack.swift; path = Source/BottomView/ImageStack.swift; sourceTree = "<group>"; };
+		873D6F527535816FB0527C874A7E937D /* ButtonPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonPicker.swift; path = Source/BottomView/ButtonPicker.swift; sourceTree = "<group>"; };
+		8B836DE1537D58FE3EAD15CAEBFE8BD6 /* ImagePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePickerController.swift; path = Source/ImagePickerController.swift; sourceTree = "<group>"; };
+		8E31EEA257BD8D255C4DDC0446EF574B /* Pods-ImageToPdfConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageToPdfConverter.release.xcconfig"; sourceTree = "<group>"; };
+		90FE87ECA60A584FF8DD37A5920C3E46 /* cameraIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cameraIcon@3x.png"; path = "Images/cameraIcon@3x.png"; sourceTree = "<group>"; };
+		9A451E9951CBF50A5923FE64BD3376E4 /* ImageGalleryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGalleryView.swift; path = Source/ImageGallery/ImageGalleryView.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACBEB20BD4A2BCC18AD18CE5013E2489 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Source/Configuration.swift; sourceTree = "<group>"; };
+		B5971E7D55B3DF499EC13683CAE3DDB0 /* PDFPassword.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPassword.swift; path = PDFGenerator/PDFPassword.swift; sourceTree = "<group>"; };
+		BDD3DA212E6F6AD7466A25A34104D123 /* Pods-ImageToPdfConverter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageToPdfConverter.modulemap"; sourceTree = "<group>"; };
+		BE8958D5BB8C6EDEEA405C0DA6EBBBF7 /* PDFGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PDFGenerator.modulemap; sourceTree = "<group>"; };
+		C419F99C08A1BCEDAC4D8D6A74F27B1C /* video@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "video@3x.png"; path = "Images/video@3x.png"; sourceTree = "<group>"; };
+		C9EE7213E0B725BBF6A84B6D29A14DB7 /* DPIType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPIType.swift; path = PDFGenerator/DPIType.swift; sourceTree = "<group>"; };
+		CABB13F29F056267286A4C72F9DBE472 /* ImageGalleryViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageGalleryViewDataSource.swift; path = Source/ImageGallery/ImageGalleryViewDataSource.swift; sourceTree = "<group>"; };
+		D0808B533129C03C01D34767C33A7B19 /* ImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImagePicker-dummy.m"; sourceTree = "<group>"; };
+		D1FB7CA13F31874881A226370928F014 /* PDFPageRenderable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PDFPageRenderable.swift; path = PDFGenerator/PDFPageRenderable.swift; sourceTree = "<group>"; };
+		D8AB921686169C4BEFFBDE279686E8A5 /* ImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ImagePicker-Info.plist"; sourceTree = "<group>"; };
+		DF6B885651A667694E48245DD3CD7C13 /* ImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		E03C9A5637BA0B34E795215456433F85 /* PDFGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PDFGenerator-umbrella.h"; sourceTree = "<group>"; };
+		E1BA18877405480C2A9CFADC3104DA75 /* Pods-ImageToPdfConverter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageToPdfConverter-Info.plist"; sourceTree = "<group>"; };
+		E4F544638E0778CEB0671026C735D488 /* FilePathConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilePathConvertible.swift; path = PDFGenerator/FilePathConvertible.swift; sourceTree = "<group>"; };
+		E5467078299D9CAE467F6D30DB89459A /* ImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImagePicker.xcconfig; sourceTree = "<group>"; };
+		ED51198C79C8065CBAFF16DAD9AB4082 /* Pods-ImageToPdfConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageToPdfConverter.debug.xcconfig"; sourceTree = "<group>"; };
+		EDCE73487DAE39FF0C896C3B0E1D0FAB /* AssetManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssetManager.swift; path = Source/AssetManager.swift; sourceTree = "<group>"; };
+		F3074B3D63C57A50A2694C1E7B9A4B30 /* PDFGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PDFGenerator.xcconfig; sourceTree = "<group>"; };
+		F6A6FAC9B4594EEC4F7836F1EED153E3 /* focusIcon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "focusIcon@3x.png"; path = "Images/focusIcon@3x.png"; sourceTree = "<group>"; };
+		F990281C3B59ED5C2803A800B1BE90A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FF41D72D31F312B79F8C6598E5E503F6 /* Pods-ImageToPdfConverter-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageToPdfConverter-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50B33677753496383E62E16B1AEB8985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E81154B3A75B33C93D0CF0B4DB0EF3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBB7AF2B30E0EA247E375E4EB516D7D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9100123EC21BD45BDE7EA935AE2847 /* AVFoundation.framework in Frameworks */,
+				856C4FE17E6A13C60864DF6FBB6A455B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9E9E70017E59CBE06D3D60C8F12E72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E89DA295976956D063FA39B92A546556 /* Foundation.framework in Frameworks */,
+				A7FE1FDD99827D917F8BE5BE339E7923 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9E0467F2B3437436BD665BE0CFA585 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D61DFC565610E32F288E425EB1C8504B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FC93115DEB2F9AE882980B520311E98 /* PDFGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				C9EE7213E0B725BBF6A84B6D29A14DB7 /* DPIType.swift */,
+				E4F544638E0778CEB0671026C735D488 /* FilePathConvertible.swift */,
+				58F1C3A827754E9B591C0C9E93C068E2 /* PDFGenerateError.swift */,
+				7AB64034BD3210831E688DED85960D0F /* PDFGenerator.h */,
+				50A022B5DBE73836872CC48BE4A467AA /* PDFGenerator.swift */,
+				178D0559D32CFA629856EF1AA63EA93A /* PDFPage.swift */,
+				3BB7119BDEBF3F93DFB82A19ACD8E221 /* PDFPagedScrollViewConfiguration.swift */,
+				D1FB7CA13F31874881A226370928F014 /* PDFPageRenderable.swift */,
+				B5971E7D55B3DF499EC13683CAE3DDB0 /* PDFPassword.swift */,
+				348D93DCD0BB2835951213AC4317CCE1 /* Support Files */,
+			);
+			name = PDFGenerator;
+			path = PDFGenerator;
+			sourceTree = "<group>";
+		};
+		14729A312C3F37FD6D6BC690B5CD8DE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C739BC1C1FC2CBE737809CC7768E0B6D /* ImagePicker */,
+				0FC93115DEB2F9AE882980B520311E98 /* PDFGenerator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		348D93DCD0BB2835951213AC4317CCE1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE8958D5BB8C6EDEEA405C0DA6EBBBF7 /* PDFGenerator.modulemap */,
+				F3074B3D63C57A50A2694C1E7B9A4B30 /* PDFGenerator.xcconfig */,
+				45E183E49638340B20F91E47EED7CABD /* PDFGenerator-dummy.m */,
+				4FEF6F821C9A6C0FA9EDA9649870333A /* PDFGenerator-Info.plist */,
+				49B0934FEC190F17B26D36522210D8E7 /* PDFGenerator-prefix.pch */,
+				E03C9A5637BA0B34E795215456433F85 /* PDFGenerator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PDFGenerator";
+			sourceTree = "<group>";
+		};
+		3C473487DED2CA3BD10EF739EE52CB03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C1CCCA7F5E5DF499FA140B31B0520BE /* ImagePicker.bundle */,
+				7F57375DA3427D8A1243E9252A59C739 /* ImagePicker.framework */,
+				82581BAD6FFFCECBBFAD15DA2F8E1FE9 /* PDFGenerator.framework */,
+				16A9BAA9C51111BE22B04E39EE00583A /* Pods_ImageToPdfConverter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63B97418DF53AF405A19F73CE4073EAF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFD416997E0DC1DD75BB84ED332A7AAB /* Pods-ImageToPdfConverter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BFD416997E0DC1DD75BB84ED332A7AAB /* Pods-ImageToPdfConverter */ = {
+			isa = PBXGroup;
+			children = (
+				BDD3DA212E6F6AD7466A25A34104D123 /* Pods-ImageToPdfConverter.modulemap */,
+				4964245724A1B64A74E5FFF980A1D192 /* Pods-ImageToPdfConverter-acknowledgements.markdown */,
+				5BDD335CBACB230E3DE5621F5E95F60F /* Pods-ImageToPdfConverter-acknowledgements.plist */,
+				69C483D92ECC2169D209DD676E3BD792 /* Pods-ImageToPdfConverter-dummy.m */,
+				FF41D72D31F312B79F8C6598E5E503F6 /* Pods-ImageToPdfConverter-frameworks.sh */,
+				E1BA18877405480C2A9CFADC3104DA75 /* Pods-ImageToPdfConverter-Info.plist */,
+				46B0A293BB5429A5E7A5F2177F7DE298 /* Pods-ImageToPdfConverter-umbrella.h */,
+				ED51198C79C8065CBAFF16DAD9AB4082 /* Pods-ImageToPdfConverter.debug.xcconfig */,
+				8E31EEA257BD8D255C4DDC0446EF574B /* Pods-ImageToPdfConverter.release.xcconfig */,
+			);
+			name = "Pods-ImageToPdfConverter";
+			path = "Target Support Files/Pods-ImageToPdfConverter";
+			sourceTree = "<group>";
+		};
+		C739BC1C1FC2CBE737809CC7768E0B6D /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				EDCE73487DAE39FF0C896C3B0E1D0FAB /* AssetManager.swift */,
+				375A63FD525B10BA952993CC9F3A49B8 /* BottomContainerView.swift */,
+				873D6F527535816FB0527C874A7E937D /* ButtonPicker.swift */,
+				1FA9FA0BCB0304E83B191D2AD0CE1B15 /* CameraMan.swift */,
+				2B93E9FE4A192F76E0024BE818A2CF9E /* CameraView.swift */,
+				ACBEB20BD4A2BCC18AD18CE5013E2489 /* Configuration.swift */,
+				2440DC00DC8E266E88BE9BA986A9EAA3 /* ConstraintsSetup.swift */,
+				75377E801CE24634774576A3CD6F2525 /* Helper.swift */,
+				40037F581F0FF0E84670F4F8E9716104 /* ImageGalleryLayout.swift */,
+				9A451E9951CBF50A5923FE64BD3376E4 /* ImageGalleryView.swift */,
+				0190E84439FCE041D8D54474F124073B /* ImageGalleryViewCell.swift */,
+				CABB13F29F056267286A4C72F9DBE472 /* ImageGalleryViewDataSource.swift */,
+				8B836DE1537D58FE3EAD15CAEBFE8BD6 /* ImagePickerController.swift */,
+				83645A26B704C3E2FDD187F9DC70F2CD /* ImageStack.swift */,
+				0B7518FA48F9FEBB5E9238E01A1D3A08 /* LocationManager.swift */,
+				18E9FC3235D5F51AFDC6EE5C563EF39B /* StackView.swift */,
+				0C88F517728354008291F26E2CAA37FA /* TopView.swift */,
+				6928B1D8A235BF3EAAF9D8E9AB4FE656 /* VideoInfoView.swift */,
+				DC655883369461B448E363FC28D5B414 /* Resources */,
+				EBF38AAFD54049B7B2ADEA153418920C /* Support Files */,
+			);
+			name = ImagePicker;
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				14729A312C3F37FD6D6BC690B5CD8DE8 /* Pods */,
+				3C473487DED2CA3BD10EF739EE52CB03 /* Products */,
+				63B97418DF53AF405A19F73CE4073EAF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D61DFC565610E32F288E425EB1C8504B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				37589962372A7E35EFA0A0719C68F984 /* AVFoundation.framework */,
+				F990281C3B59ED5C2803A800B1BE90A5 /* Foundation.framework */,
+				82173CC696AD4B7E2E314D3646DC02DD /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC655883369461B448E363FC28D5B414 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32CCCD6299503DC9DA1ADF465AAD10E0 /* AUTO@3x.png */,
+				90FE87ECA60A584FF8DD37A5920C3E46 /* cameraIcon@3x.png */,
+				F6A6FAC9B4594EEC4F7836F1EED153E3 /* focusIcon@3x.png */,
+				78B25888FA99B08C6B5982BDC85E2C53 /* OFF@3x.png */,
+				1C43856CF5012643562858F4E8867946 /* ON@3x.png */,
+				68D2641F32E345BB56F5E7525C9AD492 /* selectedImageGallery@3x.png */,
+				C419F99C08A1BCEDAC4D8D6A74F27B1C /* video@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EBF38AAFD54049B7B2ADEA153418920C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63D72F76A86D11241BDA90C7AD3A5693 /* ImagePicker.modulemap */,
+				E5467078299D9CAE467F6D30DB89459A /* ImagePicker.xcconfig */,
+				D0808B533129C03C01D34767C33A7B19 /* ImagePicker-dummy.m */,
+				D8AB921686169C4BEFFBDE279686E8A5 /* ImagePicker-Info.plist */,
+				DF6B885651A667694E48245DD3CD7C13 /* ImagePicker-prefix.pch */,
+				665A37163446F776A4210C9692873018 /* ImagePicker-umbrella.h */,
+				5D890D956999632346D999270629A75A /* ResourceBundle-ImagePicker-ImagePicker-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ImagePicker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F5E04A8C939BC1CD492E3929E4DC9B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5EFD4398A7CD49C069496645E68E6E /* ImagePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		795C2718174E195096C28EE5BEE525C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7284D54ADA2FF0B04DC1A1D53FC59432 /* Pods-ImageToPdfConverter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B51DD60C277590FC530B49591BD60E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BB8E3655701ADD477E90ADBF45C578 /* PDFGenerator-umbrella.h in Headers */,
+				6658D526FDE27C165932913AA550AE52 /* PDFGenerator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01CB8D6098C21E12CE735619344DE81E /* ImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE3411480E038E7975009D2B002E1F4 /* Build configuration list for PBXNativeTarget "ImagePicker" */;
+			buildPhases = (
+				5F5E04A8C939BC1CD492E3929E4DC9B7 /* Headers */,
+				6D04F51967AA1157B061CA83A29B4037 /* Sources */,
+				BBB7AF2B30E0EA247E375E4EB516D7D3 /* Frameworks */,
+				F1C847C6385011B6AEB84F989366F9D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3ADD00AED43E273ECF6F9FE3BE7F5BA /* PBXTargetDependency */,
+			);
+			name = ImagePicker;
+			productName = ImagePicker;
+			productReference = 7F57375DA3427D8A1243E9252A59C739 /* ImagePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		614D1818852890AC7D3CDF68D512C370 /* ImagePicker-ImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E5FCD50CC61531327BF60A76BADDF1 /* Build configuration list for PBXNativeTarget "ImagePicker-ImagePicker" */;
+			buildPhases = (
+				2EB512A1928E3168AB4E8A1B23C719AC /* Sources */,
+				BF9E0467F2B3437436BD665BE0CFA585 /* Frameworks */,
+				072A9513E96F3A96E582B8CE84AD063D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImagePicker-ImagePicker";
+			productName = "ImagePicker-ImagePicker";
+			productReference = 3C1CCCA7F5E5DF499FA140B31B0520BE /* ImagePicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B4155860F72F4F966764F993323CC997 /* Pods-ImageToPdfConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3F0FE9928AAB1DC81A7A055C5F43A9 /* Build configuration list for PBXNativeTarget "Pods-ImageToPdfConverter" */;
+			buildPhases = (
+				795C2718174E195096C28EE5BEE525C6 /* Headers */,
+				FD1795448BF94F423C3653D12346E310 /* Sources */,
+				50B33677753496383E62E16B1AEB8985 /* Frameworks */,
+				E7706A410C9CF062E31FB6AA63D5A47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A172D79CB996C66DF437E136CAC41DF /* PBXTargetDependency */,
+				4C24072B42FA6C7043446FCC69CA1D6F /* PBXTargetDependency */,
+			);
+			name = "Pods-ImageToPdfConverter";
+			productName = "Pods-ImageToPdfConverter";
+			productReference = 16A9BAA9C51111BE22B04E39EE00583A /* Pods_ImageToPdfConverter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF6E62D8BE0F25781A37BB7EC37F6318 /* PDFGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00449F2F59A048A3255A19E3D2EE6FC /* Build configuration list for PBXNativeTarget "PDFGenerator" */;
+			buildPhases = (
+				7B51DD60C277590FC530B49591BD60E1 /* Headers */,
+				B2CAB28671364EB0957F2217DD13CB49 /* Sources */,
+				BC9E9E70017E59CBE06D3D60C8F12E72 /* Frameworks */,
+				47E46D75F5162DFD01C4D80DA581293B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFGenerator;
+			productName = PDFGenerator;
+			productReference = 82581BAD6FFFCECBBFAD15DA2F8E1FE9 /* PDFGenerator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3C473487DED2CA3BD10EF739EE52CB03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01CB8D6098C21E12CE735619344DE81E /* ImagePicker */,
+				614D1818852890AC7D3CDF68D512C370 /* ImagePicker-ImagePicker */,
+				FF6E62D8BE0F25781A37BB7EC37F6318 /* PDFGenerator */,
+				B4155860F72F4F966764F993323CC997 /* Pods-ImageToPdfConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		072A9513E96F3A96E582B8CE84AD063D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65ED7F3314BEB7D5D2E3B275102901DD /* AUTO@3x.png in Resources */,
+				37F59342BE29FEE9CBC6E2777049F7E3 /* cameraIcon@3x.png in Resources */,
+				DCC5C9CEBC158AA2676641C5CE979CED /* focusIcon@3x.png in Resources */,
+				16C3EAEFB8CFEA8441A64A28D14EE6F7 /* OFF@3x.png in Resources */,
+				87EE674051DFFE693F9C0E5E3CA12F11 /* ON@3x.png in Resources */,
+				E47BD7856CA87BCFD9D0B3FF4DE02E41 /* selectedImageGallery@3x.png in Resources */,
+				D32A96A16C39C80566A37471D2F66314 /* video@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47E46D75F5162DFD01C4D80DA581293B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7706A410C9CF062E31FB6AA63D5A47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1C847C6385011B6AEB84F989366F9D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53A909A3FB00B32E39180B5E63885265 /* ImagePicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EB512A1928E3168AB4E8A1B23C719AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D04F51967AA1157B061CA83A29B4037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9484B916052BF12B27815A86985F9E1 /* AssetManager.swift in Sources */,
+				475851145F3602F181CC253ADE6041C1 /* BottomContainerView.swift in Sources */,
+				33D61DD8A236C44BB320BF38B3974AE6 /* ButtonPicker.swift in Sources */,
+				DA4FFA588D4396D425B61B8F6C57C740 /* CameraMan.swift in Sources */,
+				29303FE953FD50896E2ECC0C69932B8E /* CameraView.swift in Sources */,
+				BDD4108B2548018264BDFA84531BC3F7 /* Configuration.swift in Sources */,
+				FC91F8BE4B968ABB4A2169BB4E512EC6 /* ConstraintsSetup.swift in Sources */,
+				54F28BF9BE8BA3C180F111139D01610E /* Helper.swift in Sources */,
+				D60AEDA0EDAF331247CF92CAC7D6CF27 /* ImageGalleryLayout.swift in Sources */,
+				3889D90F4717A5FD721EFCDEFE5F16D8 /* ImageGalleryView.swift in Sources */,
+				551FD2AC4D90C241DB733525DB7E1785 /* ImageGalleryViewCell.swift in Sources */,
+				7450565C2E11E9A5ADC24A352C10E0BA /* ImageGalleryViewDataSource.swift in Sources */,
+				C7FB5A2EF6BFDECB5D5C6CC6FB7F3223 /* ImagePicker-dummy.m in Sources */,
+				13348103312E1FDB4A9E0C2400E02625 /* ImagePickerController.swift in Sources */,
+				E81B321E8102E9F7C471B7FD46C59872 /* ImageStack.swift in Sources */,
+				E8639FF6A423D6D1645DF1D02F64770F /* LocationManager.swift in Sources */,
+				1F4856A9C17403CE4D018026EF735679 /* StackView.swift in Sources */,
+				E9DE322CB1888B1B3ED73985E0A30722 /* TopView.swift in Sources */,
+				A60A930F397E1C1FBCB0F4999BBE6F09 /* VideoInfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CAB28671364EB0957F2217DD13CB49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF496CB723CBF1EFB9F31623A64161C /* DPIType.swift in Sources */,
+				C9CE1E6AC61CD28301EE714761042D15 /* FilePathConvertible.swift in Sources */,
+				D8FB9BA54A3369663FB17CC94C98BECE /* PDFGenerateError.swift in Sources */,
+				003FFED7DA96C43DEF130DE04821538B /* PDFGenerator-dummy.m in Sources */,
+				ADB078286A6032BDFCFC1827BD1F077E /* PDFGenerator.swift in Sources */,
+				E9C7FF980E8BBC682DD527B2615ABB47 /* PDFPage.swift in Sources */,
+				7ABFA4EFE824876F166FEFA9866AD64B /* PDFPagedScrollViewConfiguration.swift in Sources */,
+				A82EC868762F8A685B233B4470E0A9D3 /* PDFPageRenderable.swift in Sources */,
+				544BCA9C63E7BB88DE240F9B2E478BCB /* PDFPassword.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1795448BF94F423C3653D12346E310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B14C0717617986134EC7A4A04C85F5 /* Pods-ImageToPdfConverter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A172D79CB996C66DF437E136CAC41DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ImagePicker;
+			target = 01CB8D6098C21E12CE735619344DE81E /* ImagePicker */;
+			targetProxy = 827543A80C95097E9E3687A828903C9F /* PBXContainerItemProxy */;
+		};
+		4C24072B42FA6C7043446FCC69CA1D6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PDFGenerator;
+			target = FF6E62D8BE0F25781A37BB7EC37F6318 /* PDFGenerator */;
+			targetProxy = 629E9AFA4149E4895CEF96079623CEE8 /* PBXContainerItemProxy */;
+		};
+		F3ADD00AED43E273ECF6F9FE3BE7F5BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ImagePicker-ImagePicker";
+			target = 614D1818852890AC7D3CDF68D512C370 /* ImagePicker-ImagePicker */;
+			targetProxy = B999D9B08D687821BCC743F0FEE638AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0FDF6440369284CD97EA2A33D92C71DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5467078299D9CAE467F6D30DB89459A /* ImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImagePicker/ImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImagePicker/ImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ImagePicker/ImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = ImagePicker;
+				PRODUCT_NAME = ImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1D10FCD439CCDDB4C41E5972A7EB9B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5467078299D9CAE467F6D30DB89459A /* ImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ImagePicker";
+				INFOPLIST_FILE = "Target Support Files/ImagePicker/ResourceBundle-ImagePicker-ImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		33FFA1E42A3688CF7388EE0EC6B98C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3074B3D63C57A50A2694C1E7B9A4B30 /* PDFGenerator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PDFGenerator/PDFGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PDFGenerator/PDFGenerator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PDFGenerator/PDFGenerator.modulemap";
+				PRODUCT_MODULE_NAME = PDFGenerator;
+				PRODUCT_NAME = PDFGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		724A82CF926354EE0E1AA4BAF341EEE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5467078299D9CAE467F6D30DB89459A /* ImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImagePicker/ImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImagePicker/ImagePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ImagePicker/ImagePicker.modulemap";
+				PRODUCT_MODULE_NAME = ImagePicker;
+				PRODUCT_NAME = ImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9ED347FF8BF46126C9517D1FA651C364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5467078299D9CAE467F6D30DB89459A /* ImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ImagePicker";
+				INFOPLIST_FILE = "Target Support Files/ImagePicker/ResourceBundle-ImagePicker-ImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C3D7E08E8EA67E31EC6C4807C3B8885D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED51198C79C8065CBAFF16DAD9AB4082 /* Pods-ImageToPdfConverter.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageToPdfConverter/Pods-ImageToPdfConverter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageToPdfConverter/Pods-ImageToPdfConverter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CAF2BA613401E274DAD950A34B580C4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E31EEA257BD8D255C4DDC0446EF574B /* Pods-ImageToPdfConverter.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageToPdfConverter/Pods-ImageToPdfConverter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageToPdfConverter/Pods-ImageToPdfConverter.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7932A671BFDAF1A7F5CEE7C73394013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3074B3D63C57A50A2694C1E7B9A4B30 /* PDFGenerator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PDFGenerator/PDFGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PDFGenerator/PDFGenerator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PDFGenerator/PDFGenerator.modulemap";
+				PRODUCT_MODULE_NAME = PDFGenerator;
+				PRODUCT_NAME = PDFGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31E5FCD50CC61531327BF60A76BADDF1 /* Build configuration list for PBXNativeTarget "ImagePicker-ImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED347FF8BF46126C9517D1FA651C364 /* Debug */,
+				1D10FCD439CCDDB4C41E5972A7EB9B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00449F2F59A048A3255A19E3D2EE6FC /* Build configuration list for PBXNativeTarget "PDFGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33FFA1E42A3688CF7388EE0EC6B98C38 /* Debug */,
+				E7932A671BFDAF1A7F5CEE7C73394013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3F0FE9928AAB1DC81A7A055C5F43A9 /* Build configuration list for PBXNativeTarget "Pods-ImageToPdfConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3D7E08E8EA67E31EC6C4807C3B8885D /* Debug */,
+				CAF2BA613401E274DAD950A34B580C4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE3411480E038E7975009D2B002E1F4 /* Build configuration list for PBXNativeTarget "ImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FDF6440369284CD97EA2A33D92C71DE /* Debug */,
+				724A82CF926354EE0E1AA4BAF341EEE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
