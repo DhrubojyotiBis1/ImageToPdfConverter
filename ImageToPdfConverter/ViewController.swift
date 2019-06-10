@@ -12,6 +12,7 @@ import PDFGenerator
 
 class ViewController: UIViewController,ImagePickerDelegate {
     fileprivate var outputAsData: Bool = false
+    var path = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,8 +52,9 @@ class ViewController: UIViewController,ImagePickerDelegate {
     
     func doneButtonDidPress(_ imagePicker: ImagePickerController, images: [UIImage]) {
         print(images.count)
-        imagePicker.dismiss(animated: true, completion: nil)
         self.generatePdfFromImage(withImages: images)
+        imagePicker.dismiss(animated: true, completion: nil)
+        
     }
     
     func cancelButtonDidPress(_ imagePicker: ImagePickerController) {
@@ -61,17 +63,18 @@ class ViewController: UIViewController,ImagePickerDelegate {
     
     private func generatePdfFromImage(withImages images: [UIImage]){
         print("YES")
-        let dst = getDestinationPath(2)
+        path = getDestinationPath(2)
         autoreleasepool {
             do {
                 if outputAsData {
                     let data = try PDFGenerator.generated(by: images)
-                    try data.write(to: URL(fileURLWithPath: dst))
+                    try data.write(to: URL(fileURLWithPath: self.path))
                 } else {
-                    try PDFGenerator.generate(images, to: dst, dpi: .custom(144), password: "123456")
+                    try PDFGenerator.generate(images, to: self.path, dpi: .custom(144), password: "123456")
                 }
                 
-                print(dst)
+                print(path)
+                performSegue(withIdentifier: "goToPdfDisplay", sender: nil)
                 //openPDFViewer(dst)
             } catch let e {
                 print(e)
@@ -79,13 +82,11 @@ class ViewController: UIViewController,ImagePickerDelegate {
         }
         
     }
-    
-    fileprivate func openPDFViewer(_ pdfPath: String) {
-        let url = URL(fileURLWithPath: pdfPath)
-        let storyboard = UIStoryboard(name: "PDFPreviewVC", bundle: nil)
-        let vc = storyboard.instantiateInitialViewController() as! PDFPreviewVC
-        vc.setupWithURL(url)
-        present(vc, animated: true, completion: nil)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToPdfDisplay"{
+            let pdfVC = segue.destination as! PdfViewController
+            pdfVC.pdfPath = self.path
+        }
     }
 
 }

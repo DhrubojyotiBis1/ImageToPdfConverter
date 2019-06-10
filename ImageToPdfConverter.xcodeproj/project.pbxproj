@@ -13,8 +13,7 @@
 		6F83992A22AE8C2C000666C3 /* ImageToPdfConverter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F83992822AE8C2C000666C3 /* ImageToPdfConverter.xcdatamodeld */; };
 		6F83992F22AE8C2E000666C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F83992D22AE8C2E000666C3 /* LaunchScreen.storyboard */; };
 		6F83993722AE9362000666C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F83993622AE9362000666C3 /* Assets.xcassets */; };
-		6F83993B22AEAB15000666C3 /* PDFPreviewVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F83993A22AEAB15000666C3 /* PDFPreviewVC.storyboard */; };
-		6F83993D22AEAB47000666C3 /* PDFPreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F83993C22AEAB47000666C3 /* PDFPreviewVC.swift */; };
+		6F83993F22AEB10F000666C3 /* PdfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F83993E22AEB10F000666C3 /* PdfViewController.swift */; };
 		CC6D2682DBB492FB5CA07F3C /* Pods_ImageToPdfConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B4FF5AC3748A4C22E290CE /* Pods_ImageToPdfConverter.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +29,7 @@
 		6F83992E22AE8C2E000666C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F83993022AE8C2E000666C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F83993622AE9362000666C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6F83993A22AEAB15000666C3 /* PDFPreviewVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PDFPreviewVC.storyboard; sourceTree = "<group>"; };
-		6F83993C22AEAB47000666C3 /* PDFPreviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFPreviewVC.swift; sourceTree = "<group>"; };
+		6F83993E22AEB10F000666C3 /* PdfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,10 +78,9 @@
 				6F83992522AE8C2B000666C3 /* Main.storyboard */,
 				6F83993622AE9362000666C3 /* Assets.xcassets */,
 				6F83992D22AE8C2E000666C3 /* LaunchScreen.storyboard */,
-				6F83993A22AEAB15000666C3 /* PDFPreviewVC.storyboard */,
 				6F83993022AE8C2E000666C3 /* Info.plist */,
-				6F83993C22AEAB47000666C3 /* PDFPreviewVC.swift */,
 				6F83992822AE8C2C000666C3 /* ImageToPdfConverter.xcdatamodeld */,
+				6F83993E22AEB10F000666C3 /* PdfViewController.swift */,
 			);
 			path = ImageToPdfConverter;
 			sourceTree = "<group>";
@@ -160,7 +157,6 @@
 				6F83992F22AE8C2E000666C3 /* LaunchScreen.storyboard in Resources */,
 				6F83993722AE9362000666C3 /* Assets.xcassets in Resources */,
 				6F83992722AE8C2B000666C3 /* Main.storyboard in Resources */,
-				6F83993B22AEAB15000666C3 /* PDFPreviewVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,8 +211,8 @@
 			files = (
 				6F83992422AE8C2B000666C3 /* ViewController.swift in Sources */,
 				6F83992222AE8C2B000666C3 /* AppDelegate.swift in Sources */,
-				6F83993D22AEAB47000666C3 /* PDFPreviewVC.swift in Sources */,
 				6F83992A22AE8C2C000666C3 /* ImageToPdfConverter.xcdatamodeld in Sources */,
+				6F83993F22AEB10F000666C3 /* PdfViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
